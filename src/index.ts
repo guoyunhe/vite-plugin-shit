@@ -12,7 +12,7 @@ const recommendedRules: Record<string, number> = {
   lodash: 1,
 };
 
-export const packageNameRegex =
+const packageNameRegex =
   /^.*(?:\/node_modules\/)((@[a-z0-9-~][a-z0-9-._~]*\/)?[a-z0-9-~][a-z0-9-._~]*)/;
 
 export interface ShitOptions {
