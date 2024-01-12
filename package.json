@@ -1,0 +1,66 @@
+{
+  "name": "vite-plugin-shit",
+  "version": "1.0.0",
+  "description": "To prevent shit from your bundle...",
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "rollup",
+    "rollup-plugin",
+    "shit"
+  ],
+  "homepage": "https://github.com/guoyunhe/vite-plugin-shit#readme",
+  "bugs": {
+    "url": "https://github.com/guoyunhe/vite-plugin-shit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guoyunhe/vite-plugin-shit.git"
+  },
+  "funding": "https://github.com/sponsors/guoyunhe",
+  "license": "MIT",
+  "author": {
+    "name": "Guo Yunhe",
+    "email": "i@guoyunhe.me"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "screenshot.png"
+  ],
+  "scripts": {
+    "build": "node-scripts build",
+    "format": "node-scripts format",
+    "lint": "node-scripts lint",
+    "test": "node-scripts test",
+    "watch": "node-scripts watch",
+    "example": "cd example && vite build"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true
+  },
+  "eslintConfig": {
+    "extends": "@guoyunhe/node-scripts"
+  },
+  "jest": {
+    "preset": "@guoyunhe/node-scripts"
+  },
+  "devDependencies": {
+    "@guoyunhe/node-scripts": "^2.2.0",
+    "@tsconfig/node20": "^1.0.2",
+    "@tsconfig/strictest": "^2.0.2",
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
